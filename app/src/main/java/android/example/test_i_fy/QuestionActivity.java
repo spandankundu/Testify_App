@@ -43,16 +43,10 @@ public class QuestionActivity extends AppCompatActivity {
 
         questions = new ArrayList<Question>(){
             {
-                add(new Question("Quanto que vale o número de Euler?", "C", "3.1415", "1.7189","2.7182", "5.985"));
-                add(new Question("Quem foi que disse a seguinte frase: \"Ame o seu próximo como a si mesmo\"?", "A", "Jesus", "Hitler","Mussolini", "Stalin"));
-                add(new Question("Quem é Friedrich Nietzsche?", "D", "Pedreiro", "Programador","Músico", "Filósofo"));
-                add(new Question("A música \"Billie Jean\" é cantada por quem?", "B", "Whindersson Nunes", "Michael Jackson", "Kanye West", "Billie Eilish"));
-                add(new Question("O que é um Ukulele?", "A", "Instrumento Musical", "Comida", "Empresa", "Time de Futebol"));
-                add(new Question("Em tecnologia, o que é I.A?", "D", "Software", "Sistema Operacional", "Compilador", "Interligência Artificial"));
-                add(new Question("Quanto vale 8 bits?", "C", "1 Bit", "16 Bytes", "1 Byte", "1 Mega Byte"));
-                add(new Question("O que é Bitcoin?", "B", "Moeda governamental", "Crypto Moeda", "Uma rede decentralizada", "Software de Datamining"));
-                add(new Question("Quem foi que criou o Bitcoin?", "B", "Margaret Hamilton", "Satoshi Nakamoto", "Alan Turing", "Gustavo Guanabara"));
-                add(new Question("Quem foi o primeiro programador?", "D", "Steve Jobs", "Linus Torvalds", "Alan Turing", "Ada Lovelace"));
+                add(new Question("Sample Question 1", "A", "1", "2","3", "4"));
+                add(new Question("Sample Question 2", "B","1", "2","3", "4"));
+                add(new Question("Sample Question 3", "C", "1", "2","3", "4"));
+                add(new Question("Sample Question 4", "D","1", "2","3", "4"));
             }
         };
 
