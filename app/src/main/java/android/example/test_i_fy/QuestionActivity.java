@@ -85,19 +85,19 @@ public class QuestionActivity extends AppCompatActivity {
         int op = radioGroup.getCheckedRadioButtonId();
 
         switch (op){
-            case R.id.opcaoA:
+            case R.id.optionA:
                 Answer="A";
                 break;
 
-            case R.id.opcaoB:
+            case R.id.optionB:
                 Answer="B";
                 break;
 
-            case R.id.opcaoC:
+            case R.id.optionC:
                 Answer="C";
                 break;
 
-            case R.id.opcaoD:
+            case R.id.optionD:
                 Answer="D";
                 break;
 
